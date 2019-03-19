@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/image_picker_preview_background"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/image_picker_view_toolbar_chat"
+        android:layout_width="match_parent"
+        android:layout_height="52dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_photo_picker_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:overScrollMode="ifContentScrolls"
+        android:scrollbars="vertical" />
+
+    <RelativeLayout
+        android:id="@+id/layout_picker_select_folder"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_picker_select_bottom_height"
+        android:background="@color/image_picker_bottom"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/text_picker_select_folder"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/image_picker_all_image"
+            android:textColor="@color/image_picker_text_color_normal"
+            android:textSize="16sp"
+            android:theme="@style/CheckBoxStyle" />
+
+        <com.wuba.image.photopicker.widget.checkbox.PickerOriginalCheckbox
+            android:id="@+id/checkbox_preview_select_source"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:text="@string/image_picker_source_image"
+            android:textColor="@color/image_picker_text_color_normal"
+            android:textSize="16sp"
+            android:theme="@style/CheckBoxStyle" />
+
+        <TextView
+            android:id="@+id/text_picker_select_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="?attr/selectableItemBackground"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/image_picker_preview"
+            android:textColor="@color/image_picker_send_text_color"
+            android:textSize="16sp"
+            android:theme="@style/CheckBoxStyle" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wuba.image.photopicker">
+
+    <application>
+        <!--图片选择界面-->
+        <activity
+            android:name=".view.PickerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/ImagePickerTheme">
+            <intent-filter>
+                <action android:name="mis.intent.action.PhotoPicker" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".view.PickerPreviewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/ImagePreviewTheme" />
+
+        <!-- 裁剪图片 -->
+        <activity
+            android:name=".view.crop.CropImageActivity"
+            android:theme="@style/ImagePreviewTheme" />
+    </application>
+
+</manifest>

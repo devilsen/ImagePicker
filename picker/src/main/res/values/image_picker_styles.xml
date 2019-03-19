@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="ImagePickerTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/image_picker_colorPrimaryDark</item>
+        <!-- toolbar（actionbar）背景颜色 -->
+        <item name="colorPrimary">@color/image_picker_colorPrimary</item>
+        <!-- 底部导航栏的颜色 -->
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">
+            @color/image_picker_navigationBarColor
+        </item>
+
+        <item name="colorAccent">@color/image_picker_colorAccent</item>
+
+        <item name="android:background">@null</item>
+
+    </style>
+
+    <style name="ImagePreviewTheme" parent="ImagePickerTheme">
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="CheckBoxStyle" parent="Theme.AppCompat.DayNight">
+        <item name="colorControlNormal">@color/image_picker_check_box_normal</item>
+        <item name="colorControlActivated">@color/image_picker_colorAccent</item>
+    </style>
+
+    <style name="popupWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="PickerDialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+</resources>

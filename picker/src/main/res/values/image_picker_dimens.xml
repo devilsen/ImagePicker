@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_picker_size_photo_divider">1dp</dimen>
+    <dimen name="image_picker_size_delete_padding">2dp</dimen>
+    <dimen name="image_picker_size_level1">4dp</dimen>
+    <dimen name="image_picker_size_level2">8dp</dimen>
+    <dimen name="image_picker_size_level3">12dp</dimen>
+
+    <dimen name="image_picker_textSize_level1">12sp</dimen>
+    <dimen name="image_picker_textSize_level2">16sp</dimen>
+</resources>

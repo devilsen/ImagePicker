@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_picker_select_bottom_height">45dp</dimen>
+    <dimen name="crop__bar_height">56dp</dimen>
+
+</resources>

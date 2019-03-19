@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 状态栏的颜色 -->
+    <color name="image_picker_colorPrimaryDark">#1A1F25</color>
+    <!-- 导航栏的颜色 -->
+    <color name="image_picker_navigationBarColor">#1A1F25</color>
+    <!-- Toolbar的颜色 -->
+    <color name="image_picker_colorPrimary">#1a1f25</color>
+
+    <color name="image_picker_colorAccent">#FF6214</color>
+
+
+    <!-- 预览界面颜色 -->
+    <color name="image_picker_preview_background">#ff000000</color>
+    <!-- 位于预览下方的界面颜色 -->
+    <color name="image_picker_bottom">#ce1a1f25</color>
+
+
+    <!-- 图片处于选中状态时的遮罩层颜色 -->
+    <color name="image_picker_photo_selected_mask">#4D000000</color>
+
+    <!-- 右上角确认按钮不可用时的颜色 -->
+    <color name="image_picker_btn_confirm_disabled">#AD430E</color>
+    <!-- 右上角确认按钮可用时的颜色 -->
+    <color name="image_picker_btn_confirm_enabled">#FF6214</color>
+    <!-- 右上角确认按钮按下时的颜色 -->
+    <color name="image_picker_btn_confirm_pressed">#f55708</color>
+
+    <color name="image_picker_loading_progress_startColor">@android:color/transparent</color>
+    <color name="image_picker_loading_progress_centerColor">#FF6214</color>
+    <color name="image_picker_loading_progress_endColor">#FF6214</color>
+
+    <color name="image_picker_place_holder">#ef14181d</color>
+
+    <color name="image_picker_shape_image_folder_recycler_background">#ef14181d</color>
+
+    <color name="image_picker_shape_dialog_bg">#ca0c0f12</color>
+
+    <color name="image_picker_check_box_normal">#e6e6e6</color>
+
+    <color name="image_picker_text_color_not_enable">#44ffffff</color>
+    <color name="image_picker_text_color_normal">#ffffff</color>
+
+
+</resources>

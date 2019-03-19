@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">picker</string>
+
+    <string name="image_picker_take_picture">拍摄照片</string>
+    <string name="image_picker_photo_not_support">当前设备不支持发送图片</string>
+    <string name="image_picker_toast_photo_picker_max">最多只能选择 %1$d 张图片</string>
+    <string name="image_picker_all_image">所有图片</string>
+    <string name="image_picker_images">图片</string>
+    <string name="image_picker_confirm">确定</string>
+    <string name="image_picker_choose">选择</string>
+    <string name="image_picker_view_photo">查看图片</string>
+    <string name="image_picker_download_img_failure">下载到图片失败</string>
+    <string name="image_picker_save_img_failure">保存图片失败，再试试?</string>
+    <string name="image_picker_save_img_success_folder">图片已保存至 %s 文件夹</string>
+    <string name="image_picker_source_image">原图</string>
+
+    <string name="image_picker_preview">预览</string>
+    <string name="image_picker_preview_num">预览(%d)</string>
+
+    <string name="image_picker_send">发送</string>
+    <string name="image_picker_send_num">发送(%d/%d)</string>
+
+    <string name="image_picker_select_total">%d/%d</string>
+
+    <string name="image_picker_over_max_size">您最多只能选择%d张图片</string>
+    <string name="image_picker_loading">正在读取…</string>
+
+
+    <string name="crop__saving">正在保存照片…</string>
+    <string name="crop__wait">请等待…</string>
+    <string name="crop__pick_error">无效的图片</string>
+
+    <string name="crop__done">完成</string>
+    <string name="crop__cancel">取消</string>
+</resources>

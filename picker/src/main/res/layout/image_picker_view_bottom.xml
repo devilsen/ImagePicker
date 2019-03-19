@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@color/image_picker_bottom"
+    android:divider="@drawable/image_picker_view_bottom_divider"
+    android:orientation="vertical"
+    android:showDividers="middle">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_preview_select"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical">
+
+        <com.wuba.image.photopicker.widget.checkbox.PickerOriginalCheckbox
+            android:id="@+id/checkbox_preview_select_source"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:text="@string/image_picker_source_image"
+            android:textColor="@color/image_picker_check_box_normal"
+            android:textSize="16sp"
+            android:theme="@style/CheckBoxStyle" />
+
+        <CheckBox
+            android:id="@+id/checkbox_preview_select_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/image_picker_choose"
+            android:textColor="@color/image_picker_check_box_normal"
+            android:textSize="16sp"
+            android:theme="@style/CheckBoxStyle" />
+
+    </RelativeLayout>
+
+</LinearLayout>

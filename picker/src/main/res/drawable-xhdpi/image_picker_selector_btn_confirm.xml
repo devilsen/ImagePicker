@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <padding android:bottom="5dp" android:left="20dp" android:right="20dp" android:top="5dp" />
+            <solid android:color="@color/image_picker_btn_confirm_disabled" />
+            <corners android:radius="@dimen/image_picker_size_level1" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/image_picker_btn_confirm_pressed" />
+            <corners android:radius="@dimen/image_picker_size_level1" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/image_picker_btn_confirm_enabled" />
+            <corners android:radius="@dimen/image_picker_size_level1" />
+        </shape>
+    </item>
+</selector>
