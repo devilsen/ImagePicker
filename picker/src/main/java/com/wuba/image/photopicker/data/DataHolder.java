@@ -4,12 +4,9 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 
-import com.wuba.mobile.lib.analysis.AnalysisCenter;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Properties;
 
 /**
  * desc : data center
@@ -101,11 +98,6 @@ public class DataHolder {
         selectList.clear();
         selectMap.clear();
 
-        if (context != null) {
-            Properties properties = new Properties();
-            properties.put("type", isOriginal ? "原图" : "普通");
-            AnalysisCenter.onEvent(context, AnalysisConstants.IM_PHOTO_MESSAGE_SEND, properties);
-        }
         isOriginal = false;
     }
 
